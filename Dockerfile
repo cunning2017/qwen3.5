@@ -1,1 +1,1 @@
-FROM vllm/vllm-openai:cu130-nightly
+FROM --platform=linux/arm64 quay.io/ascend/vllm-ascend:v0.16.0rc1
